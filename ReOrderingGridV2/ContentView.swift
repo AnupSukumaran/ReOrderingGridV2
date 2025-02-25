@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var colors: [Color] = [.red, .blue, .purple, .yellow, . black, .indigo, .cyan, .brown, .mint, .orange]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            ScrollView(.vertical) {
+                let columns = Array(repeating: GridItem(spacing: 10), count: 3)
+                LazyVGrid(columns: columns, spacing: 10) {
+                    ForEach(colors, id: \.self) { color in
+                        RoundedRectangle(cornerRadius: 10)
+                            .fill(color.gradient)
+                            .frame(height: 100)
+                    }
+                    
+                }
+                .padding(15)
+            }
+            .navigationTitle("Movable Grid")
         }
-        .padding()
     }
 }
 
