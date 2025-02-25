@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F56B0DCC2D6E10780021995D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56B0DB32D6E10760021995D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56B0DBA2D6E10760021995D;
+			remoteInfo = ReOrderingGridV2;
+		};
+		F56B0DD62D6E10780021995D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56B0DB32D6E10760021995D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56B0DBA2D6E10760021995D;
+			remoteInfo = ReOrderingGridV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F56B0DBB2D6E10760021995D /* ReOrderingGridV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReOrderingGridV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56B0DCB2D6E10780021995D /* ReOrderingGridV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReOrderingGridV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56B0DD52D6E10780021995D /* ReOrderingGridV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReOrderingGridV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F56B0DBD2D6E10760021995D /* ReOrderingGridV2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReOrderingGridV2;
+			sourceTree = "<group>";
+		};
+		F56B0DCE2D6E10780021995D /* ReOrderingGridV2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReOrderingGridV2Tests;
+			sourceTree = "<group>";
+		};
+		F56B0DD82D6E10780021995D /* ReOrderingGridV2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReOrderingGridV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56B0DB82D6E10760021995D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56B0DC82D6E10780021995D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56B0DD22D6E10780021995D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56B0DB22D6E10760021995D = {
+			isa = PBXGroup;
+			children = (
+				F56B0DBD2D6E10760021995D /* ReOrderingGridV2 */,
+				F56B0DCE2D6E10780021995D /* ReOrderingGridV2Tests */,
+				F56B0DD82D6E10780021995D /* ReOrderingGridV2UITests */,
+				F56B0DBC2D6E10760021995D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56B0DBC2D6E10760021995D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56B0DBB2D6E10760021995D /* ReOrderingGridV2.app */,
+				F56B0DCB2D6E10780021995D /* ReOrderingGridV2Tests.xctest */,
+				F56B0DD52D6E10780021995D /* ReOrderingGridV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56B0DBA2D6E10760021995D /* ReOrderingGridV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56B0DDF2D6E10780021995D /* Build configuration list for PBXNativeTarget "ReOrderingGridV2" */;
+			buildPhases = (
+				F56B0DB72D6E10760021995D /* Sources */,
+				F56B0DB82D6E10760021995D /* Frameworks */,
+				F56B0DB92D6E10760021995D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F56B0DBD2D6E10760021995D /* ReOrderingGridV2 */,
+			);
+			name = ReOrderingGridV2;
+			packageProductDependencies = (
+			);
+			productName = ReOrderingGridV2;
+			productReference = F56B0DBB2D6E10760021995D /* ReOrderingGridV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F56B0DCA2D6E10780021995D /* ReOrderingGridV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56B0DE22D6E10780021995D /* Build configuration list for PBXNativeTarget "ReOrderingGridV2Tests" */;
+			buildPhases = (
+				F56B0DC72D6E10780021995D /* Sources */,
+				F56B0DC82D6E10780021995D /* Frameworks */,
+				F56B0DC92D6E10780021995D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56B0DCD2D6E10780021995D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F56B0DCE2D6E10780021995D /* ReOrderingGridV2Tests */,
+			);
+			name = ReOrderingGridV2Tests;
+			packageProductDependencies = (
+			);
+			productName = ReOrderingGridV2Tests;
+			productReference = F56B0DCB2D6E10780021995D /* ReOrderingGridV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F56B0DD42D6E10780021995D /* ReOrderingGridV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56B0DE52D6E10780021995D /* Build configuration list for PBXNativeTarget "ReOrderingGridV2UITests" */;
+			buildPhases = (
+				F56B0DD12D6E10780021995D /* Sources */,
+				F56B0DD22D6E10780021995D /* Frameworks */,
+				F56B0DD32D6E10780021995D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56B0DD72D6E10780021995D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F56B0DD82D6E10780021995D /* ReOrderingGridV2UITests */,
+			);
+			name = ReOrderingGridV2UITests;
+			packageProductDependencies = (
+			);
+			productName = ReOrderingGridV2UITests;
+			productReference = F56B0DD52D6E10780021995D /* ReOrderingGridV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56B0DB32D6E10760021995D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F56B0DBA2D6E10760021995D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F56B0DCA2D6E10780021995D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F56B0DBA2D6E10760021995D;
+					};
+					F56B0DD42D6E10780021995D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F56B0DBA2D6E10760021995D;
+					};
+				};
+			};
+			buildConfigurationList = F56B0DB62D6E10760021995D /* Build configuration list for PBXProject "ReOrderingGridV2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56B0DB22D6E10760021995D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F56B0DBC2D6E10760021995D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56B0DBA2D6E10760021995D /* ReOrderingGridV2 */,
+				F56B0DCA2D6E10780021995D /* ReOrderingGridV2Tests */,
+				F56B0DD42D6E10780021995D /* ReOrderingGridV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56B0DB92D6E10760021995D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56B0DC92D6E10780021995D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56B0DD32D6E10780021995D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56B0DB72D6E10760021995D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56B0DC72D6E10780021995D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56B0DD12D6E10780021995D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56B0DCD2D6E10780021995D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56B0DBA2D6E10760021995D /* ReOrderingGridV2 */;
+			targetProxy = F56B0DCC2D6E10780021995D /* PBXContainerItemProxy */;
+		};
+		F56B0DD72D6E10780021995D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56B0DBA2D6E10760021995D /* ReOrderingGridV2 */;
+			targetProxy = F56B0DD62D6E10780021995D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F56B0DDD2D6E10780021995D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F56B0DDE2D6E10780021995D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56B0DE02D6E10780021995D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReOrderingGridV2/Preview Content\"";
+				DEVELOPMENT_TEAM = 6793T2GZPD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pyronix.ReOrderingGridV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56B0DE12D6E10780021995D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReOrderingGridV2/Preview Content\"";
+				DEVELOPMENT_TEAM = 6793T2GZPD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pyronix.ReOrderingGridV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F56B0DE32D6E10780021995D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6793T2GZPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pyronix.ReOrderingGridV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReOrderingGridV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReOrderingGridV2";
+			};
+			name = Debug;
+		};
+		F56B0DE42D6E10780021995D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6793T2GZPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pyronix.ReOrderingGridV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReOrderingGridV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReOrderingGridV2";
+			};
+			name = Release;
+		};
+		F56B0DE62D6E10780021995D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6793T2GZPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pyronix.ReOrderingGridV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReOrderingGridV2;
+			};
+			name = Debug;
+		};
+		F56B0DE72D6E10780021995D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6793T2GZPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pyronix.ReOrderingGridV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReOrderingGridV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56B0DB62D6E10760021995D /* Build configuration list for PBXProject "ReOrderingGridV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56B0DDD2D6E10780021995D /* Debug */,
+				F56B0DDE2D6E10780021995D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56B0DDF2D6E10780021995D /* Build configuration list for PBXNativeTarget "ReOrderingGridV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56B0DE02D6E10780021995D /* Debug */,
+				F56B0DE12D6E10780021995D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56B0DE22D6E10780021995D /* Build configuration list for PBXNativeTarget "ReOrderingGridV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56B0DE32D6E10780021995D /* Debug */,
+				F56B0DE42D6E10780021995D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56B0DE52D6E10780021995D /* Build configuration list for PBXNativeTarget "ReOrderingGridV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56B0DE62D6E10780021995D /* Debug */,
+				F56B0DE72D6E10780021995D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F56B0DB32D6E10760021995D /* Project object */;
+}
